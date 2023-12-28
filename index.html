@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=Edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FeastHive Restaurant</title>
+    <link rel="shortcut icon" type="x-icon" href="img/icon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-------- Navination Bar --------->
+    <nav>
+      <div class="logo">
+        <img src="img/logo.png" alt="logo" />
+        <h1>FeastHive Restaurant</h1>
+      </div>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#food">Food</a>
+        </li>
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="#testimonials">Feedback</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+    <div class="menubar">
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#food">Food</a>
+        </li>
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="#testimonials">Feedback</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Home section -->
+    <section id="home">
+      <div class="container">
+        <h1
+          style="
+            font-size: 60px;
+            font-weight: bolder;
+            text-shadow: 1px 1px 1.5px rgb(255, 255, 255);
+            letter-spacing: 8px;
+            font-family: Papyrus, fantasy;
+            padding-top: 10px;
+            color: #e60000;
+          "
+          class="hotel-name"
+        >
+          FeastHive Restaurant
+        </h1>
+        <h3>Discover a world of flavors</h3>
+        <a href="#" id="learnMoreBtn" class="btn">LEARN MORE</a>
+        <br /><br />
+        <div id="moreInfo" class="hidden">
+          <p class="para">
+            FeastHive Restaurant is a vibrant culinary destination dedicated to
+            crafting a celebratory dining experience for every guest. Nestled in
+            a warm and inviting ambiance, it celebrates the joy of food and
+            community, offering an eclectic menu inspired by global flavors and
+            local ingredients.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Type of food -->
+    <section id="food">
+      <h2
+        style="
+          text-align: center;
+          font-size: 3rem;
+          font-weight: bold;
+          margin-bottom: 40px;
+          text-transform: uppercase;
+          color: #0b0b0b;
+          text-decoration: none;
+        "
+      >
+        Types of food
+      </h2>
+      <div class="food-container container">
+        <div class="food-type fruite">
+          <div class="img-container">
+            <img
+              src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="error"
+            />
+            <div class="img-content">
+              <h3>fruite</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Fruit"
+                class="btn btn-primary"
+                target="blank"
+                >learn more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="food-type vegetable">
+          <div class="img-container">
+            <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
+            <div class="img-content">
+              <h3>vegetable</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Vegetable"
+                class="btn btn-primary"
+                target="blank"
+                >learn more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="food-type grin">
+          <div class="img-container">
+            <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
+            <div class="img-content">
+              <h3>grin</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Grain"
+                class="btn btn-primary"
+                target="blank"
+                >learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu section -->
+    <section id="menu">
+      <h1>Food Menu</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
+            <!-- <hr> -->
+          </div>
+          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+            <a href="img/2.jpg" data-lightbox-gallery="zenda-gallery"
+              ><img src="img/2.jpg" alt="menu img"
+            /></a>
+            <div>
+              <h3>Food Menu Item 1</h3>
+              <p style="color: #117964; font-weight: 700">Price: &#8377; 100</p>
+            </div>
+            <a href="img/3.jpg" data-lightbox-gallery="zenda-gallery"
+              ><img src="img/3.jpg" alt="menu img"
+            /></a>
+            <div>
+              <h3>Food Menu Item 2</h3>
+              <p style="color: #117964; font-weight: 700">Price: &#8377; 250</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+            <a href="img/4.jpg" data-lightbox-gallery="zenda-gallery"
+              ><img src="img/4.jpg" alt="menu img"
+            /></a>
+            <div>
+              <h3>Food Menu Item 3</h3>
+              <p style="color: #117964; font-weight: 700">Price: &#8377; 255</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
+            <a href="img/5.jpg" data-lightbox-gallery="zenda-gallery"
+              ><img src="img/5.jpg" alt="menu img"
+            /></a>
+            <div>
+              <h3>Food Menu Item 4</h3>
+              <p style="color: #117964; font-weight: 700">Price: &#8377; 220</p>
+            </div>
+            <a href="img/6.jpg" data-lightbox-gallery="zenda-gallery"
+              ><img src="img/6.jpg" alt="menu img"
+            /></a>
+            <div>
+              <h3>Food Menu Item 5</h3>
+              <p style="color: #117964; font-weight: 700">Price: &#8377; 250</p>
+            </div>
+          </div>
+          <div class="col-md-offset-2 col-md-8 col-sm-12 text-center"></div>
+          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+            <a
+              href="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg"
+              data-lightbox-gallery="zenda-gallery"
+              ><img
+                src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg"
+                alt="menu img"
+            /></a>
+            <div class="food-description">
+              <h3 class="food-titile">Food Menu Item 6</h3>
+              <p class="food-price">Price: &#8377; 250</p>
+            </div>
+            <a href="img/8.jpg" data-lightbox-gallery="zenda-gallery"
+              ><img src="img/8.jpg" alt="menu img" height="10%"
+            /></a>
+            <div class="food-description">
+              <h3 class="food-titile">Food Menu Item 7</h3>
+              <p class="food-price">Price: &#8377; 300</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+            <a
+              href="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              data-lightbox-gallery="zenda-gallery"
+              ><img
+                src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="menu img"
+            /></a>
+            <div class="food-description">
+              <h3 class="food-titile">Food Menu Item 8</h3>
+              <p class="food-price">Price: &#8377; 200</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
+            <a
+              href="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              data-lightbox-gallery="zenda-gallery"
+              ><img
+                src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="menu img"
+            /></a>
+            <div class="food-description">
+              <h3 class="food-titile">Food Menu Item 9</h3>
+              <p class="food-price">Price: &#8377; 300</p>
+            </div>
+            <a
+              href="https://img.freepik.com/free-photo/closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce_181624-61705.jpg?w=996&t=st=1703607735~exp=1703608335~hmac=9701861c545da3aa0ac7266658f32fa4343237c8d8d574c8c1b5bda3e50bea1b"
+              data-lightbox-gallery="zenda-gallery"
+              ><img
+                src="https://img.freepik.com/free-photo/closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce_181624-61705.jpg?w=996&t=st=1703607735~exp=1703608335~hmac=9701861c545da3aa0ac7266658f32fa4343237c8d8d574c8c1b5bda3e50bea1b"
+                alt="menu img"
+            /></a>
+            <div class="food-description">
+              <h3 class="food-titile">Food Menu Item 10</h3>
+              <p class="food-price">Price: &#8377; 400</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonial----->
+    <section id="testimonials">
+      <!-- <div class="container"> -->
+      <h1
+        style="
+          text-align: center;
+          font-size: 3rem;
+          font-weight: bold;
+          margin-bottom: 40px;
+          text-transform: uppercase;
+          color: #000000;
+          text-decoration: none;
+        "
+      >
+        What Our Customers Say
+      </h1>
+      <div class="testimonials">
+        <div class="testimonial">
+          <p class="quote">
+            The dining experience at this restaurant was phenomenal - from the
+            warm hospitality to the exquisite flavors, every visit feels like a
+            celebration.
+          </p>
+          <p class="customer">- Priyanshu Kamble</p>
+        </div>
+        <div class="testimonial">
+          <p class="quote">
+            I've never been disappointed with the culinary delights here; each
+            dish is a masterpiece that tantalizes the taste buds and leaves a
+            lasting impression.
+          </p>
+          <p class="customer">- Raj Bhende</p>
+        </div>
+        <div class="testimonial">
+          <p class="quote">
+            This restaurant truly understands how to elevate dining to an art
+            form; every meal feels like a personalized culinary journey that I
+            eagerly embark on.
+          </p>
+          <p class="customer">- Piyush Burde</p>
+        </div>
+        <div class="testimonial">
+          <p class="quote">
+            The ambiance, coupled with the delectable dishes, creates an
+            unforgettable experience; I always recommend this place to friends
+            seeking a memorable dining outing.
+          </p>
+          <p class="customer">- Prajwal Sakhale</p>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <!----Contact---->
+
+    <section id="contact">
+      <h1
+        style="
+          text-align: center;
+          padding-top: 10px;
+          margin-top: 1%;
+          margin-bottom: 2.5%;
+        "
+      >
+        Contact Us
+      </h1>
+      <div class="container">
+        <div class="contact-info">
+          <div class="column left">
+            <div
+              style="
+                text-align: center;
+                font-size: 3rem;
+                font-weight: bold;
+                margin-bottom: 40px;
+                font-family: Papyrus, fantasy;
+                /* text-transform: uppercase; */
+                color: #000000;
+                text-decoration: none;
+              "
+            >
+              FeastHive Restaurant
+            </div>
+
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Yegnesh Kamble</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">
+                    Dharm-peth ,Nagpur, India - 441001
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fa-solid fa-phone"></i>
+                <div class="info">
+                  <div class="head">Phone</div>
+                  <div class="sub-title">+91-9172691217</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">info@feasthive.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h2>Reservation</h2>
+          <form action="#" method="POST">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="date"
+                id="date"
+                name="date"
+                placeholder="Date"
+                required
+              />
+              <input
+                type="time"
+                id="date"
+                name="time"
+                placeholder="Reporting Time"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="number"
+                id="guests"
+                name="guests"
+                min="1"
+                placeholder="Number of Guests"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern=""
+                placeholder="Phone No"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <button type="submit">Make Reservation</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--- Footer ----->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6 style="margin-left: 10%">About</h6>
+            <p class="text-justify" style="margin-left: 10%">
+              At FeastHive, we believe in crafting more than just meals; we
+              curate experiences that linger in your memory long after the last
+              bite. Nestled in the heart of Nagpur, we pride ourselves on being
+              more than a restaurant; we're a culinary destination where every
+              visit is a celebration of flavors, ambiance, and genuine
+              hospitality.
+            </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3" style="margin-left: 25%">
+            <h6>Services</h6>
+            <ul class="footer-links">
+              <li>
+                <a href="http://scanfcode.com/about/">1.Dining Experience</a>
+              </li>
+              <li>
+                <a href="http://scanfcode.com/contact/">2.Quality of Food</a>
+              </li>
+              <li>
+                <a href="http://scanfcode.com/contribute-at-scanfcode/"
+                  >3.Customer Service</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/privacy-policy/"
+                  >4.Reservation System</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/sitemap/"
+                  >5.Hygiene and Cleanliness</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy; 2023 All Rights Reserved by
+              <a href="#">FeastHive Restaurant</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li>
+                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a class="dribbble" href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!---- JavaScript ---->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
