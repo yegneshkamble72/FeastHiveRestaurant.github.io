@@ -438,6 +438,16 @@ nav ul li a:hover {
   background-color: #a7ffe9;
   color: #000000;
 }
+#testimonials .test-pname{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+    
+  }
 
 .quote {
   /* font-size: 20px; */
