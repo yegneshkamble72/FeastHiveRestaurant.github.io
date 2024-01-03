@@ -763,7 +763,6 @@ button:hover {
 } */
 
 @media screen and (max-width: 1080px) {
-
   .hamburger {
     display: block;
   }
@@ -773,8 +772,16 @@ button:hover {
   .menubar {
     top: 55px;
     width: 40%;
-    height: 5%;
+    height: 4%;
     padding: 7% 0;
+  }
+  #menu .container {
+    min-height: 60vh;
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 0%;
+    padding-bottom: 2%;
   }
   #home .hotel-name{
     font-size: 40px;
@@ -785,21 +792,30 @@ button:hover {
     padding: 10px 10px;
     margin-top: 40px;
   }
-  #menu .container {
-    min-height: 60vh;
-    width: 100%;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-top: 0%;
-    padding-bottom: 2%;
+  #food .food-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+  #food .img-container {
+    margin: 1rem 2rem;
+    position: relative;
+  }
+  
+
   #testimonials{
     min-height: 40vh;
+  }
+  #testimonials .test-pname{
+    font-size: 2.2rem;
+    
   }
   .testimonials {
     min-height: 30vh;
   }
-  
+  #contact .icons {
+    margin-left: 30px;
+  }
 }
 
 @media only screen and (min-width: 200px) {
