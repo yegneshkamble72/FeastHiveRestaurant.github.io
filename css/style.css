@@ -732,7 +732,7 @@ button:hover {
   
 }
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   #home .btn {
     width: 30%;
     letter-spacing: 2px;
@@ -740,9 +740,9 @@ button:hover {
     margin-top: 40px;
   }
   
-}
+} */
 
-@media screen and (max-width: 790px) {
+/* @media screen and (max-width: 790px) {
   .hamburger {
     display: block;
   }
@@ -750,9 +750,10 @@ button:hover {
     display: none;
   }
   
-}
+} */
 
 @media screen and (max-width: 1080px) {
+
   .hamburger {
     display: block;
   }
@@ -764,6 +765,15 @@ button:hover {
     width: 40%;
     height: 5%;
     padding: 7% 0;
+  }
+  #home .hotel-name{
+    font-size: 40px;
+  }
+  #home .btn {
+    width: 30%;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    margin-top: 40px;
   }
   #menu .container {
     min-height: 60vh;
