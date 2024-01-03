@@ -168,6 +168,16 @@ nav ul li a:hover {
   justify-content: center;
   animation: animate 20s ease-in-out infinite;
 }
+#home .hotel-name{
+  font-size: 60px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1.5px rgb(255, 255, 255);
+  letter-spacing: 8px;
+  font-family: Papyrus, fantasy;
+  padding-top: 10px;
+  color: #e60000;
+}
+  
 
 #home h3 {
   font-size: 25px;
