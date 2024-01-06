@@ -168,6 +168,16 @@ nav ul li a:hover {
   justify-content: center;
   animation: animate 20s ease-in-out infinite;
 }
+#home .hotel-name{
+  font-size: 60px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1.5px rgb(255, 255, 255);
+  letter-spacing: 8px;
+  font-family: Papyrus, fantasy;
+  padding-top: 10px;
+  color: #e60000;
+}
+  
 
 #home h3 {
   font-size: 25px;
@@ -428,6 +438,16 @@ nav ul li a:hover {
   background-color: #a7ffe9;
   color: #000000;
 }
+#testimonials .test-pname{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+    
+  }
 
 .quote {
   /* font-size: 20px; */
@@ -732,7 +752,7 @@ button:hover {
   
 }
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   #home .btn {
     width: 30%;
     letter-spacing: 2px;
@@ -740,9 +760,9 @@ button:hover {
     margin-top: 40px;
   }
   
-}
+} */
 
-@media screen and (max-width: 790px) {
+/* @media screen and (max-width: 790px) {
   .hamburger {
     display: block;
   }
@@ -750,6 +770,62 @@ button:hover {
     display: none;
   }
   
+} */
+
+@media screen and (max-width: 1080px) {
+  .hamburger {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+  .menubar {
+    top: 55px;
+    width: 40%;
+    height: 4%;
+    padding: 7% 0;
+  }
+  #menu .container {
+    min-height: 60vh;
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+  }
+  #home .hotel-name{
+    font-size: 40px;
+  }
+  #home .btn {
+    width: 30%;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    margin-top: 40px;
+  }
+  #food .food-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #food .img-container {
+    margin: 1rem 2rem;
+    position: relative;
+  }
+  
+
+  #testimonials{
+    min-height: 40vh;
+  }
+  #testimonials .test-pname{
+    font-size: 2.2rem;
+    
+  }
+  .testimonials {
+    min-height: 30vh;
+  }
+  #contact .icons {
+    margin-left: 30px;
+  }
 }
 
 @media only screen and (min-width: 200px) {
