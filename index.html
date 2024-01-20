@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FeastHive Restaurant</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+    <!-- <link rel="shortcut icon" type="x-icon" href="img/icon.png"/> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->   
     <link rel="stylesheet" href="https://assets.elements.envato.com/apps/storefront/chunk-SIM~CP~CCDP~FFP~GHP~DHP~IDP~IP~AIP~UPP~IRSTP~ASP-3ebaa5510f539059a654.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -19,20 +23,20 @@
         <img src="img/logo.png" alt="logo" />
         <h1>FeastHive Restaurant</h1>
       </div>
-      <ul class="wow fadeInRight" data-wow-delay="0.3s">
-        <li>
+      <ul >
+        <li class="wow fadeInDown" data-wow-delay="0.1s">
           <a href="#home">Home</a>
         </li>
-        <li>
+        <li class="wow fadeInDown" data-wow-delay="0.2s">
           <a href="#food">Food</a>
         </li>
-        <li>
+        <li class="wow fadeInDown" data-wow-delay="0.3s">
           <a href="#menu">Menu</a>
         </li>
-        <li>
+        <li class="wow fadeInDown" data-wow-delay="0.4s">
           <a href="#testimonials">Feedback</a>
         </li>
-        <li>
+        <li class="wow fadeInDown" data-wow-delay="0.5s">
           <a href="#contact">Contact Us</a>
         </li>
       </ul>
@@ -65,11 +69,11 @@
     <!-- Home section -->
     <section id="home">
       <div class="container">
-        <h1 class="hotel-name wow fadeInLeft" data-wow-delay="0.3s">
+        <h1 class="hotel-name wow fadeInLeft" data-wow-delay="0.2s">
           FeastHive Restaurant
         </h1>
-        <h3 class="wow fadeInRight" data-wow-delay="0.3s">Discover a world of flavors</h3>
-        <a href="#" id="learnMoreBtn" class="btn wow fadeInUp" data-wow-delay="0.4s">LEARN MORE</a>
+        <h3 class="wow fadeInRight" data-wow-delay="0.4s">Discover a world of flavors</h3>
+        <a href="#" id="learnMoreBtn" class="btn wow fadeInUp" data-wow-delay="0.6s">LEARN MORE</a>
         <br /><br />
         <div id="moreInfo" class="hidden">
           <p class="para">
@@ -84,7 +88,8 @@
     </section>
     <!-- Type of food -->
     <section id="food">
-      <h2
+      <h2 
+        class="wow fadeInDown" data-wow-delay="0.3s"
         style="
           text-align: center;
           font-size: 3rem;
@@ -98,7 +103,7 @@
         Types of food
       </h2>
       <div class="food-container container">
-        <div class="food-type fruite  wow fadeInUp" data-wow-delay="0.4s">
+        <div class="food-type fruite  wow fadeInUp" data-wow-delay="0.3s">
           <div class="img-container">
             <img
               src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -115,7 +120,7 @@
             </div>
           </div>
         </div>
-        <div class="food-type vegetable wow fadeInUp" data-wow-delay="0.5s">
+        <div class="food-type vegetable wow fadeInUp" data-wow-delay="0.6s">
           <div class="img-container">
             <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
             <div class="img-content">
@@ -129,7 +134,7 @@
             </div>
           </div>
         </div>
-        <div class="food-type grin wow fadeInUp" data-wow-delay="0.6s">
+        <div class="food-type grin wow fadeInUp" data-wow-delay="0.9s">
           <div class="img-container">
             <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
             <div class="img-content">
@@ -147,7 +152,7 @@
     </section>
     <!-- Menu section -->
     <section id="menu">
-      <h1>Food Menu</h1>
+      <h1 class="wow fadeInDown" data-wow-delay="0.3s">Food Menu</h1>
       <div class="container">
         <div class="row">
           <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
@@ -303,12 +308,15 @@
 
     <section id="contact">
       <h1
-        style="
-          text-align: center;
-          padding-top: 10px;
-          margin-top: 1%;
-          margin-bottom: 2.5%;
-        "
+      style="
+      text-align: center;
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      color: #0b0b0b;
+      text-decoration: none;
+    "
       >
         Contact Us
       </h1>
@@ -316,6 +324,8 @@
         <div class="contact-info">
           <div class="column left">
             <div
+              class="wow fadeInDown" data-wow-delay="0.3s"
+
               style="
                 text-align: center;
                 font-size: 3rem;
@@ -331,7 +341,7 @@
             </div>
 
             <div class="icons">
-              <div class="row">
+              <div class="row wow fadeInLeft" data-wow-delay="0.2s">
                 <i class="fas fa-user"></i>
                 <div class="info">
                   <div class="head">Name</div>
@@ -339,9 +349,8 @@
                 </div>
               </div>
 
-              <div class="row">
+              <div class="row wow fadeInLeft" data-wow-delay="0.4s">
                 <i class="fas fa-map-marker-alt"></i>
-
                 <div class="info">
                   <div class="head">Address</div>
                   <div class="sub-title">
@@ -349,14 +358,14 @@
                   </div>
                 </div>
               </div>
-              <div class="row">
+              <div class="row wow fadeInLeft" data-wow-delay="0.6s">
                 <i class="fa-solid fa-phone"></i>
                 <div class="info">
                   <div class="head">Phone</div>
                   <div class="sub-title">+91-9172691217</div>
                 </div>
               </div>
-              <div class="row">
+              <div class="row wow fadeInLeft" data-wow-delay="0.8s">
                 <i class="fas fa-envelope"></i>
                 <div class="info">
                   <div class="head">Email</div>
@@ -366,10 +375,10 @@
             </div>
           </div>
         </div>
-        <div class="contact-form wow fadeInUp" data-wow-delay="0.3s">
-          <h2>Reservation</h2>
+        <div class="contact-form wow fadeInUp" data-wow-delay="0.2s">
+          <h2 class="wow fadeInDown" data-wow-delay="0.4s">Reservation</h2>
           <form action="#" method="POST">
-            <div class="form-group">
+            <div class="form-group wow fadeInDown" data-wow-delay="0.6s">
               <input
                 type="text"
                 id="name"
@@ -378,7 +387,7 @@
                 required
               />
             </div>
-            <div class="form-group">
+            <div class="form-group wow fadeInDown" data-wow-delay="0.8s">
               <input
                 type="date"
                 id="date"
@@ -395,7 +404,7 @@
               />
             </div>
 
-            <div class="form-group">
+            <div class="form-group wow fadeInDown" data-wow-delay="1.0s">
               <input
                 type="number"
                 id="guests"
@@ -405,7 +414,7 @@
                 required
               />
             </div>
-            <div class="form-group">
+            <div class="form-group wow fadeInDown" data-wow-delay="1.2s">
               <input
                 type="email"
                 id="email"
@@ -414,7 +423,7 @@
                 required
               />
             </div>
-            <div class="form-group">
+            <div class="form-group wow fadeInDown" data-wow-delay="1.4s">
               <input
                 type="tel"
                 id="phone"
@@ -424,7 +433,7 @@
                 required
               />
             </div>
-            <div class="form-group">
+            <div class="form-group wow fadeInDown" data-wow-delay="1.5s">
               <button type="submit">Make Reservation</button>
             </div>
           </form>
