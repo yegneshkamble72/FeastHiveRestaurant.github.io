@@ -751,19 +751,19 @@ button:hover {
 @keyframes animate {
   0%,
   100% {
-    background-image: url(https://images.unsplash.com/photo-1552590290-8213d3f0b4e8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   }
   20% {
-    background-image: url(https://images.unsplash.com/photo-1605710345595-9929bc7912ca?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   }
   40% {
-    background-image: url(https://images.unsplash.com/photo-1552960226-639240203497?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.pexels.com/photos/750843/pexels-photo-750843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   }
   60% {
-    background-image: url(https://images.unsplash.com/photo-1527224538127-2104bb71c51b?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.pexels.com/photos/1237073/pexels-photo-1237073.jpeg?auto=compress&cs=tinysrgb&w=600);
   }
   80% {
-    background-image: url(https://img.freepik.com/free-photo/silhouette-plate-tableware_23-2147694061.jpg?w=740&t=st=1703736380~exp=1703736980~hmac=d22b5773852418e2343fb8f291bcc0a904a98b78a8333d2011770d5c993203cf);
+    background-image: url(https://images.pexels.com/photos/1237073/pexels-photo-1237073.jpeg?auto=compress&cs=tinysrgb&w=600);
   }
 }
 
